@@ -26,6 +26,10 @@ go install github.com/krippendorf/flex6k-discovery-util-go
 export GOARCH=arm
 export GOOS=linux
 export GOARM=5
+go install github.com/krippendorf/flex6k-discovery-util-go
 
+# macos
+export GOARCH=amd64
+export GOOS=darwin
 go install github.com/krippendorf/flex6k-discovery-util-go
 
